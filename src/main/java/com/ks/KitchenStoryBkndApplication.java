@@ -49,7 +49,7 @@ public class KitchenStoryBkndApplication {
 			  
 			  if(!customer.isPresent())
 			  {
-				  //public Customer(String emailid, String password, String userType, String firstname, String lastname,String creditCard)
+				 
 					
 				  Customer customer1 = new  Customer("admin@kitchenstory.com",     "123", "Admin",    "Admin", "Strator", "123456");
 				  Customer customer2 = new  Customer("customer1@kitchenstory.com", "123", "Customer", "Test", "UserOne", "123456");
@@ -67,14 +67,7 @@ public class KitchenStoryBkndApplication {
 				  
 				  log.info(">>> 3 User profiles creatd");
 			  }
-			 /* else
-			  {
-				  log.info(">>> User profiles exists <<<<<");  
-				  System.out.println(customer);
-				  log.info("### User profiles exists");  
-			  } */
-			  
-			  
+			
 			  
 		};
 	}
